@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color:#723a15;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+footer {
+    background: #723a15;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.illustration {
+    width: 100%; /* Redimensionner l'image pour remplir la largeur de son conteneur */
+    max-width: 300px; /* Définir une largeur maximale pour l'image */
+    height: auto; /* Ajuster automatiquement la hauteur en conservant les proportions d'origine */
+    display: block; /* Assurer que l'image est centrée et alignée correctement */
+    margin: 20px auto; /* Ajouter de l'espace autour de l'image */
+}
